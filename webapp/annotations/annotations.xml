@@ -9,7 +9,7 @@
 	<edmx:DataServices>
 		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="atest2.ZVT_ZVAT_SALES_ORDER_CDS">
 			<!--===============================================================================
-                Entity Type from chosen collection 
+                Entity Type from chosen collection Somnath
                 ================================================================================-->
 			<Annotations Target="ZVT_ZVAT_SALES_ORDER_CDS.ZVT_ZVAT_SALES_ORDERType">
 				<Annotation Term="UI.Facets">
