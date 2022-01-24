@@ -1,0 +1,131 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+	<edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='')/$value"><edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/></edmx:Reference>
+	<edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_UI',Version='0001',SAP__Origin='')/$value"><edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/></edmx:Reference>
+	<edmx:Reference
+		Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='')/$value"><edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/></edmx:Reference>
+	<edmx:Reference
+		Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_PERSONALDATA',Version='0001',SAP__Origin='')/$value"><edmx:Include Namespace="com.sap.vocabularies.PersonalData.v1" Alias="PersonalData"/></edmx:Reference>
+	<edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_VALIDATION',Version='0001',SAP__Origin='')/$value"><edmx:Include Namespace="Org.OData.Validation.V1" Alias="Validation"/></edmx:Reference>
+	<edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_ANALYTICS',Version='0001',SAP__Origin='')/$value"><edmx:Include Namespace="com.sap.vocabularies.Analytics.v1" Alias="Analytics"/></edmx:Reference>
+	<edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_HTML5',Version='0001',SAP__Origin='')/$value"><edmx:Include Namespace="com.sap.vocabularies.HTML5.v1" Alias="HTML5"/></edmx:Reference>
+	<edmx:Reference Uri="../../../sap/zvt_zvat_sales_order_cds/$metadata"><edmx:Include Namespace="ZVT_ZVAT_SALES_ORDER_CDS" Alias="SAP"/></edmx:Reference>
+	<edmx:DataServices>
+		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="zvt_zvat_sales_order_cds_van.v1">
+			<Annotations Target="ZVT_ZVAT_SALES_ORDER_CDS.ZVT_ZVAT_SALES_ORDERType">
+				<Annotation Term="UI.Identification">
+					<Collection>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="auart"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="posnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="matnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="Maktx"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="vkbur"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="vkgr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="VkBuePos"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="VkgPos"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="AGNummer"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="AGName"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="vbeln"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String="Schadennr."/><PropertyValue Property="Value" Path="zzschadennr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String="Vers.Sch.Nr"/><PropertyValue Property="Value" Path="zzverscheinnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String="Kennzeichen"/><PropertyValue Property="Value" Path="zzakz"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String="Verantw. Sachverständiger"/><PropertyValue Property="Value" Path="VerantwSachverst"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String="Ort"/><PropertyValue Property="Value" Path="ZXOrt"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="abgru"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="faksk"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="ernam"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="erdat"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="erzet"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="vkorg"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="vtweg"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="spart"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="objnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="fbuda"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="fkdat"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzaktenzeichen"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zztagebuchnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="xblnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzzpastatus"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzverfart"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="netwr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="waerk"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="bstkd"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzordnrzpa"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzaufbez"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="prodh"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zznat_code"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzakz_art"/></Record>
+					</Collection>
+				</Annotation>
+				<Annotation Term="UI.LineItem">
+					<Collection>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="auart"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Label" String="Vetriebsbeleg"/><PropertyValue Property="Value" Path="vbeln"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="posnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="matnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="Maktx"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="vkbur"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="vkgr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="VkBuePos"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="VkgPos"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="AGNummer"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="AGName"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzschadennr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzverscheinnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzakz"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="VerantwSachverst"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="ZXOrt"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="abgru"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="faksk"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="ernam"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="erdat"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="erzet"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="vkorg"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="vtweg"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="spart"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="objnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="fbuda"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="fkdat"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzaktenzeichen"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zztagebuchnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="xblnr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzzpastatus"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzverfart"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="netwr"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="waerk"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="bstkd"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzordnrzpa"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzaufbez"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="prodh"/><Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zznat_code"/></Record>
+						<Record Type="UI.DataField"><PropertyValue Property="Value" Path="zzakz_art"/></Record>
+					</Collection>
+				</Annotation>
+				<Annotation Term="UI.SelectionFields">
+					<Collection>
+						<PropertyPath>VerantwSachverst</PropertyPath>
+						<PropertyPath>ZXOrt</PropertyPath>
+						<PropertyPath>abgru</PropertyPath>
+						<PropertyPath>VkBuePos</PropertyPath>
+						<PropertyPath>VkgPos</PropertyPath>
+						<PropertyPath>matnr</PropertyPath>
+						<PropertyPath>zzakz</PropertyPath>
+						<PropertyPath>zzakz_art</PropertyPath>
+						<PropertyPath>zznat_code</PropertyPath>
+						<PropertyPath>zzverfart</PropertyPath>
+						<PropertyPath>vkbur</PropertyPath>
+						<PropertyPath>vkgr</PropertyPath>
+						<PropertyPath>AGNummer</PropertyPath>
+						<PropertyPath>ernam</PropertyPath>
+						<PropertyPath>vbeln</PropertyPath>
+						<PropertyPath>auart</PropertyPath>
+						<PropertyPath>vkorg</PropertyPath>
+						<PropertyPath>vtweg</PropertyPath>
+						<PropertyPath>spart</PropertyPath>
+						<PropertyPath>erdat</PropertyPath>
+						<PropertyPath>prodh</PropertyPath>
+					</Collection>
+				</Annotation>
+			</Annotations>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>
